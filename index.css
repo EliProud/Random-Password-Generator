@@ -1,0 +1,99 @@
+.card {
+    background-color: #1F2937;
+    color: #fff;
+    padding: 20px;
+    border: 5px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  h2 {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    color: green;
+    margin-bottom: 0px;
+  }
+
+  h2::first-line {
+    color: white;
+  }
+
+  .passp {
+    margin-bottom:20px;
+
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+  
+  input[type="number"],
+  input[type="checkbox"] {
+    margin-left: 10px;
+  }
+  
+  button {
+    background-color: #10B981;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #228B22;
+  }
+  
+  .passwords {
+    border-top: 1px solid #2F3E53;
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .message-box {
+    display: inline-block;
+    width: 210px;
+    height: 40px;
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: #273549;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    cursor: pointer;
+  }
+  
+  .message-box:hover {
+    background-color: #222020;
+  }
+  
+  .message-box p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 0px;
+  }
+  
+  .copied {
+    background-color: #228B22;
+    color: #fff;
+  }
